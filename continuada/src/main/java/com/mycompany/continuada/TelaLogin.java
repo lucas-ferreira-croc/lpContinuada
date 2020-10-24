@@ -124,7 +124,6 @@ public class TelaLogin extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btAcessarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btAcessarActionPerformed
-        System.out.println("ta funcionando");
         conectarBanco();
        
         String emailDigitado = tfEmail.getText();
