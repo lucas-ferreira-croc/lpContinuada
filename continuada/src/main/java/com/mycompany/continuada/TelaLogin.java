@@ -148,8 +148,7 @@ public class TelaLogin extends javax.swing.JFrame {
                 TelaDados telaDados = new TelaDados(usuario.getId(),usuario.getNome(),usuario.getEmail(),usuario.getSenha(),usuario.getTelefone());
                 telaDados.setVisible(true);
                 telaDados.mostrarInfo();
-            }
-        
+            }       
         }
     }//GEN-LAST:event_btAcessarActionPerformed
 
